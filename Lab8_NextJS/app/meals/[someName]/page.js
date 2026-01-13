@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function MealDetailsPage({ params }) {
   return (
     <>
@@ -6,7 +8,7 @@ export default function MealDetailsPage({ params }) {
         Parametr z URL: <strong>{params.someName}</strong>
       </p>
       <p>
-        Wróć do <a href="/meals">/meals</a>
+        Wróć do <Link href="/meals">/meals</Link>
       </p>
     </>
   );
