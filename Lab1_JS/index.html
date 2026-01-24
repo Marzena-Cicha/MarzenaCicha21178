@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>LAB1 – JavaScript, tablice, DOM, quiz</title>
+</head>
+<body>
+  <h1>LAB1 – JavaScript, tablice, DOM, quiz</h1>
+
+  <section id="projekt1">
+    <h2>Projekt 1 – Tablice i DOM</h2>
+
+    <p id="tablice-wynik"></p>
+    <p id="druga-tablica-wynik"></p>
+
+    <section id="main-page">
+      <h3>Dane osobowe z DOM</h3>
+      <p id="imie"></p>
+      <p id="nazwisko"></p>
+      <p id="indeks"></p>
+
+      <h4>Elementy tablic (pętla while / for)</h4>
+      <ul id="lista-while"></ul>
+      <ul id="lista-for"></ul>
+
+      <button id="pokaz-dane-btn">Pokaż dane w oknie</button>
+    </section>
+  </section>
+
+  <section id="projekt2">
+    <h2>Projekt 2 – Quiz</h2>
+    <div id="quiz"></div>
+  </section>
+
+   
+  <script>
+    let name = prompt('Jak masz na imię?', '');
+    document.write('<p>Ćw. 1. Witaj, ' + name + '</p>');
+  </script>
+
+
+  <script defer src="js/main.js"></script>
+  <script defer src="js/quiz.js"></script>
+</body>
+</html>
